@@ -6,7 +6,7 @@ function Global() {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const apiKey = 'c7aa5397284dcf329d86a526444ff5a2';
+  const apiKey = '';
 
   const fetchWeatherForCity = async (cityName) => {
     setLoading(true);

@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const fetchNews = async () => {
-      const apiKey = '58f3c948d6064b4ebd9f81157145bbcc';
+      const apiKey = '';
       const apiUrl = `https://newsapi.org/v2/everything?q=tesla&from=2024-07-23&sortBy=publishedAt&apiKey=${apiKey}`;
       const response = await fetch(apiUrl);
       const data = await response.json();
